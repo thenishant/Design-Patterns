@@ -7,6 +7,6 @@ public class Main {
                 .age(23)
                 .build();
 
-        System.out.println(person);
+        System.out.println(person.getAge());
     }
 }

@@ -7,7 +7,7 @@ public class Singleton {
     }
 
     //Double checking lock creation
-    public static volatile Singleton uniqueSingleton;
+    private static volatile Singleton uniqueSingleton;
 
     public static Singleton getUniqueSingleton() {
         if (uniqueSingleton == null) {
